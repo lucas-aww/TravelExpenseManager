@@ -51,6 +51,7 @@ public class MainWindow extends JFrame {
 
     //main
     public static void main(String[] args) {
-        new MainWindow();
+        MainWindow mainWindow = new MainWindow();
+        mainWindow.setVisible(true);
     }
 }
